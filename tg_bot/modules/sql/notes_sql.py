@@ -10,7 +10,7 @@ from tg_bot.modules.sql import SESSION, BASE
 class Notes(BASE):
     __tablename__ = "notes"
     chat_id = Column(String(14), primary_key=True)
-    name = Column(UnicodeText, primary_key=True)
+    name = Column(String(255), primary_key=True)
     value = Column(UnicodeText, nullable=False)
     file = Column(UnicodeText)
     is_reply = Column(Boolean, default=False)
