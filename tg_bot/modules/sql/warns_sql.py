@@ -27,7 +27,7 @@ class Warns(BASE):
 class WarnFilters(BASE):
     __tablename__ = "warn_filters"
     chat_id = Column(String(14), primary_key=True)
-    keyword = Column(UnicodeText, primary_key=True, nullable=False)
+    keyword = Column(String(255), primary_key=True, nullable=False)
     reply = Column(UnicodeText, nullable=False)
 
     def __init__(self, chat_id, keyword, reply):
