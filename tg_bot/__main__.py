@@ -19,16 +19,18 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hai {}, nama saya {}! Jika mempunyai pertanyaan untuk cara memakai bot ini, silahkan buka /help - lalu klik @legenhand.
+Hi {}, my name is {}! If you have any questions on how to use me, read /help - and then head to @MarieSupport.
 
-Saya adalah bot untuk membantu memanajemen grup yang dibangun dengan python3 dan pengembangan dari @BanhammerMarie_bot yang sudah tidak dikembangkan lagi \
-Untuk info lengkapnya bisa dilihat [disini](github.com/legenhand/tgbot)!
+I'm a group manager bot built in python3, using the python-telegram-bot library, and am fully opensource; \
+you can find what makes me tick [here](github.com/PaulSonOfLars/tgbot)!
 
-Silahkan untuk mensubmit pull request untuk membantu mengembangkan bot ini
+Feel free to submit pull requests on github, or to contact my support group, @MarieSupport, with any bugs, questions \
+or feature requests you might have :)
+I also have a news channel, @MarieNews for announcements on new features, downtime, etc.
 
-Daftar perintah yang dapat dijalankan bot ini bisa diliat di /help.
+You can find the list of available commands with /help.
 
-Bantu Kami untuk terus mengembangkan bot ini dengan mendonasi. bisa menghubung @legenhand.
+If you're enjoying using me, and/or would like to help me survive in the wild, hit /donate to help fund/upgrade my VPS!
 """
 
 HELP_STRINGS = """
