@@ -22,7 +22,7 @@ PM_START_TEXT = """
 Hai {}, nama saya {}! Jika mempunyai pertanyaan untuk cara memakai bot ini, silahkan buka /help - lalu klik @legenhand.
 
 Saya adalah bot untuk membantu memanajemen grup yang dibangun dengan python3 dan pengembangan dari @BanhammerMarie_bot yang sudah tidak dikembangkan lagi \
-Untuk info lengkapnya bisa dilihat [disini](https://github.com/legenhand/tgbot)!
+Untuk info lengkapnya bisa dilihat [disini](github.com/legenhand/tgbot)!
 
 Silahkan untuk mensubmit pull request untuk membantu mengembangkan bot ini
 
